@@ -1,40 +1,41 @@
-# Node modules (all dependencies)
+# =========================
+# Node.js dependencies
 node_modules/
 
-# Build output directories
+# Build output (Vite)
 dist/
-build/
-
-# Logs
-logs/
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# Environment files
-.env
-.env.local
-.env.*.local
 
 # Vite cache
 .vite/
 
-# TypeScript cache
-*.tsbuildinfo
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
 
-# Coverage output (e.g., from testing)
-coverage/
+# Environment variables
+.env
+.env.*.local
 
-# Editor & OS files
+# Editor/IDE folders
 .vscode/
 .idea/
 *.sublime-project
 *.sublime-workspace
+
+# OS-specific files
 .DS_Store
 Thumbs.db
 
-# Optional: lockfiles (uncomment if you want to ignore any of these)
-# package-lock.json
-# yarn.lock
-# pnpm-lock.yaml
+# TypeScript cache
+*.tsbuildinfo
+
+# Coverage reports
+coverage/
+
+# Tailwind/JIT cache
+.tailwind-cache/
+
+# eslint cache
+.eslintcache
